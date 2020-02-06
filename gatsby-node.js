@@ -5,10 +5,10 @@
  */
 
 // You can delete this file if you're not using it
-const path = require(`path`)
+const path = require(`path`);
 
 exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
   const result = await graphql(`
     query {
       allFeedGatsbyBlog {
@@ -19,7 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
     }
-  `)
+  `);
 
   result.data.allFeedGatsbyBlog.edges.forEach(({ node }) => {
     createPage({
@@ -28,8 +28,8 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
-        slug: node.id,
-      },
-    })
-  })
-}
+        slug: node.id
+      }
+    });
+  });
+};

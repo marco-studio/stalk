@@ -1,17 +1,17 @@
-import React from "react"
-import albumStyle from "../components/album.module.css"
+import React from "react";
+import albumStyle from "../components/album.module.css";
 
-import stitcher from "../images/stitcher.png"
-import overcast from "../images/overcast.png"
-import pocket from "../images/pocketcasts.png"
-import Apple from "../images/apple.png"
+import stitcher from "../images/stitcher.png";
+import overcast from "../images/overcast.png";
+import pocket from "../images/pocketcasts.png";
+import Apple from "../images/apple.png";
 
 const WhereToListenSmall = () => (
   <>
     <ul className="flex justify-around max-w-2xl ml-auto mr-auto mdx:max-w-3xl mt-12">
       <li className="flex">
         <a
-          href="https://podcasts.apple.com/us/podcast/ask-your-dog-guru/id1294114543?mt=2&app=podcast"
+          href="https://podcasts.apple.com/us/podcast/small-talk-alec-cuenca-motivation-inspiration-pinoy/id1460155116?mt=2&app=podcast"
           className={`py-6 px-6 rounded-lg inline-flex items-center no-underline ${
             albumStyle.podcastBox
           } mdx:min-w-220 mdx:justify-center`}
@@ -22,7 +22,7 @@ const WhereToListenSmall = () => (
       </li>
       <li className="flex">
         <a
-          href="https://pca.st/private/a5969370-027f-0138-9f4b-0acc26574db2"
+          href="https://pca.st/z543"
           className={`no-underline py-6 px-6 rounded-lg inline-flex items-center ${
             albumStyle.podcastBox
           } mdx:min-w-220 mdx:justify-center`}
@@ -33,7 +33,7 @@ const WhereToListenSmall = () => (
       </li>
       <li className="flex">
         <a
-          href="https://podcasts.google.com/?feed=aHR0cHM6Ly9kb2dndXJ1LnBvZGJlYW4uY29tL2ZlZWQueG1s&ved=0CAAQ4aUDahcKEwjY66z30rXnAhUAAAAAHQAAAAAQAQ&hl=en-GB"
+          href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9hODg3ZDkwL3BvZGNhc3QvcnNz"
           className={`no-underline py-6 px-6 rounded-lg inline-flex items-center ${
             albumStyle.podcastBox
           } mdx:min-w-220 mdx:justify-center`}
@@ -86,7 +86,7 @@ const WhereToListenSmall = () => (
     <ul className="flex justify-center max-w-2xl ml-auto mr-auto mt-6">
       <li className="flex mr-3">
         <a
-          href="https://overcast.fm/itunes1294114543/ask-your-dog-guru"
+          href="https://overcast.fm/itunes1460155116/small-talk-with-alec-cuenca-motivation-inspiration-pinoy-podcast"
           className={`no-underline py-6 px-6 rounded-lg inline-flex items-center ${
             albumStyle.podcastBox
           } mdx:justify-center mdx:min-w-220`}
@@ -97,7 +97,7 @@ const WhereToListenSmall = () => (
       </li>
       <li className="flex ml-3">
         <a
-          href="https://open.spotify.com/show/1ib4MkfMSvLYgD5FNT9Snd"
+          href="https://open.spotify.com/show/6MWunfa6H0AvLew8vu6SN0?si=5hjEgmOhT66GveGh-W7L_A"
           className={`no-underline py-6 px-6 rounded-lg inline-flex items-center ${
             albumStyle.podcastBox
           } mdx:justify-center mdx:min-w-220`}
@@ -118,6 +118,6 @@ const WhereToListenSmall = () => (
       </li>
     </ul>
   </>
-)
+);
 
-export default WhereToListenSmall
+export default WhereToListenSmall;
